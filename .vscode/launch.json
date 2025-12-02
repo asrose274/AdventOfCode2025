@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Day_1/1.2/bin/Debug/net9.0/1.2.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Day_1/1.2",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        }
+    ]
+}
