@@ -11,46 +11,67 @@ class Program
         var lines = File.ReadAllLines(filePath);
 
         int dial = 50;
-        int numOfZeros = 0;
+        int wraparounds = 0;
+        int zerosHit = 0;
         int clicks;
 
         foreach (var line in lines)
         {
             if (lines.Length > 0)
             {
+                clicks = GetAmountOfClicks(line);
+                int oldDial = dial;
+
                 if (line.StartsWith("R"))
                 {
-                    clicks = GetAmountOfClicks(line);
-                    int numHun = clicks / 100 > 0 ? clicks / 100 : 0;
-                    dial += clicks < 100 ? clicks : clicks - (numHun * 100);
+                    dial += clicks;
                 }
                 else if (line.StartsWith("L"))
                 {
-                    clicks = GetAmountOfClicks(line);
-                    int numHun = clicks / 100 > 0 ? clicks / 100 : 0;
-                    dial -= clicks < 100 ? clicks : clicks - (numHun * 100);
+                    dial -= clicks;
                 }
 
-                if (dial > 99)
+                // Count times dial passes through or lands on 0
+                if (oldDial < dial)
                 {
-                    dial -= 100;
+                    // Moving right - check if we cross 0
+                    if (oldDial < 0 && dial >= 0)
+                    {
+                        zerosHit++;
+                    }
+                    // Check multiples of 100
+                    zerosHit += dial / 100 - oldDial / 100;
                 }
-                else if (dial < 0)
+                else if (oldDial > dial)
+                {
+                    // Moving left - check if we cross 0
+                    if (oldDial > 0 && dial <= 0)
+                    {
+                        zerosHit++;
+                    }
+                    // Check multiples of 100
+                    zerosHit += oldDial / 100 - dial / 100;
+                }
+
+                // Handle wrapping with modulo arithmetic
+                wraparounds += dial / 100;
+                dial = dial % 100;
+
+                // Handle negative wrapping
+                if (dial < 0)
                 {
                     dial += 100;
-                }
-
-                if (dial == 0)
-                {
-                    numOfZeros++;
+                    wraparounds--;
                 }
             }
         }
-        Console.WriteLine($"Number of Zeros: {numOfZeros}");
+        Console.WriteLine($"Final Dial Position: {dial}");
+        // Console.WriteLine($"Total Wraparounds: {wraparounds}");
+        Console.WriteLine($"Times Dial Hit 0: {zerosHit}");
     }
 
     public static int GetAmountOfClicks(string instruction)
     {
-        return int.Parse(instruction.Substring(1)); 
+        return int.Parse(instruction.Substring(1));
     }
 }
