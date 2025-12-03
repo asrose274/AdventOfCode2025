@@ -1,0 +1,15 @@
+C:\Users\rosea\Repos\AdventOfCode2025\Day_3\3.2\bin\Debug\net9.0\3.2.exe
+C:\Users\rosea\Repos\AdventOfCode2025\Day_3\3.2\bin\Debug\net9.0\3.2.deps.json
+C:\Users\rosea\Repos\AdventOfCode2025\Day_3\3.2\bin\Debug\net9.0\3.2.runtimeconfig.json
+C:\Users\rosea\Repos\AdventOfCode2025\Day_3\3.2\bin\Debug\net9.0\3.2.dll
+C:\Users\rosea\Repos\AdventOfCode2025\Day_3\3.2\bin\Debug\net9.0\3.2.pdb
+C:\Users\rosea\Repos\AdventOfCode2025\Day_3\3.2\obj\Debug\net9.0\3.2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rosea\Repos\AdventOfCode2025\Day_3\3.2\obj\Debug\net9.0\3.2.AssemblyInfoInputs.cache
+C:\Users\rosea\Repos\AdventOfCode2025\Day_3\3.2\obj\Debug\net9.0\3.2.AssemblyInfo.cs
+C:\Users\rosea\Repos\AdventOfCode2025\Day_3\3.2\obj\Debug\net9.0\3.2.csproj.CoreCompileInputs.cache
+C:\Users\rosea\Repos\AdventOfCode2025\Day_3\3.2\obj\Debug\net9.0\3.2.sourcelink.json
+C:\Users\rosea\Repos\AdventOfCode2025\Day_3\3.2\obj\Debug\net9.0\3.2.dll
+C:\Users\rosea\Repos\AdventOfCode2025\Day_3\3.2\obj\Debug\net9.0\refint\3.2.dll
+C:\Users\rosea\Repos\AdventOfCode2025\Day_3\3.2\obj\Debug\net9.0\3.2.pdb
+C:\Users\rosea\Repos\AdventOfCode2025\Day_3\3.2\obj\Debug\net9.0\3.2.genruntimeconfig.cache
+C:\Users\rosea\Repos\AdventOfCode2025\Day_3\3.2\obj\Debug\net9.0\ref\3.2.dll
