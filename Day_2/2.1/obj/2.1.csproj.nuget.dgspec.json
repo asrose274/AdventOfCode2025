@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rosea\\Repos\\AdventOfCode2025\\Day_1\\1.1\\1.1.csproj": {}
+    "C:\\Users\\rosea\\Repos\\AdventOfCode2025\\Day_2\\2.1\\2.1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rosea\\Repos\\AdventOfCode2025\\Day_1\\1.1\\1.1.csproj": {
+    "C:\\Users\\rosea\\Repos\\AdventOfCode2025\\Day_2\\2.1\\2.1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rosea\\Repos\\AdventOfCode2025\\Day_1\\1.1\\1.1.csproj",
-        "projectName": "1.1",
-        "projectPath": "C:\\Users\\rosea\\Repos\\AdventOfCode2025\\Day_1\\1.1\\1.1.csproj",
+        "projectUniqueName": "C:\\Users\\rosea\\Repos\\AdventOfCode2025\\Day_2\\2.1\\2.1.csproj",
+        "projectName": "2.1",
+        "projectPath": "C:\\Users\\rosea\\Repos\\AdventOfCode2025\\Day_2\\2.1\\2.1.csproj",
         "packagesPath": "C:\\Users\\rosea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rosea\\Repos\\AdventOfCode2025\\Day_1\\1.1\\obj\\",
+        "outputPath": "C:\\Users\\rosea\\Repos\\AdventOfCode2025\\Day_2\\2.1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
